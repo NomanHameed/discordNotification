@@ -1,6 +1,6 @@
 <?php
 
-namespace Tapday\DiscordNotifications\Facades;
+namespace Tapday\Notifications\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

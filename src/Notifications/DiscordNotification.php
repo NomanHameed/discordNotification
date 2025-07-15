@@ -1,6 +1,6 @@
 <?php
 
-namespace Tapday\DiscordNotifications\Notifications;
+namespace Tapday\Notifications\Notifications;
 
 use Illuminate\Notifications\Notification;
 use Tapday\DiscordNotifications\Channels\DiscordChannel;

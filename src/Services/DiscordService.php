@@ -1,6 +1,6 @@
 <?php
 
-namespace Tapday\DiscordNotifications\Services;
+namespace Tapday\Notifications\Services;
 
 use Illuminate\Support\Facades\Notification;
 use Tapday\DiscordNotifications\Notifications\DiscordNotification;

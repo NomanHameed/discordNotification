@@ -1,6 +1,6 @@
 <?php
 
-namespace Tapday\DiscordNotifications\Channels;
+namespace Tapday\Notifications\Channels;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
