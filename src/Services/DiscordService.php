@@ -3,7 +3,7 @@
 namespace Tapday\Notifications\Services;
 
 use Illuminate\Support\Facades\Notification;
-use Tapday\Notification\Notifications\DiscordNotification;
+use Tapday\Notifications\Notifications\DiscordNotification;
 
 class DiscordService
 {
