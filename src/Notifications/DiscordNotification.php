@@ -3,7 +3,7 @@
 namespace Tapday\Notifications\Notifications;
 
 use Illuminate\Notifications\Notification;
-use Tapday\DiscordNotifications\Channels\DiscordChannel;
+use Tapday\Notifications\Channels\DiscordChannel;
 
 class DiscordNotification extends Notification
 {

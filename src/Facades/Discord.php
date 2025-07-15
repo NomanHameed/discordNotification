@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static array getChannels()
  * @method static bool hasChannel(string $channelName)
  * @method static void addChannel(string $name, string $webhookUrl, string $username = null, string $avatarUrl = null)
- * @method static \Tapday\DiscordNotifications\Notifications\DiscordNotification notification()
+ * @method static \Tapday\Notifications\Notifications\DiscordNotification notification()
  */
 class Discord extends Facade
 {

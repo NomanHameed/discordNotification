@@ -3,7 +3,7 @@
 namespace Tapday\Notifications;
 
 use Illuminate\Support\ServiceProvider;
-use Tapday\DiscordNotifications\Services\DiscordService;
+use Tapday\Notifications\Services\DiscordService;
 
 class DiscordNotificationsServiceProvider extends ServiceProvider
 {

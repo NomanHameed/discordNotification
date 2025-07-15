@@ -7,7 +7,7 @@ A Laravel package for sending notifications to Discord channels via webhooks.
 Install the package via Composer:
 
 ```bash
-composer require Tapday/laravel-discord-notifications
+composer require tapday/notification
 ```
 
 The package will automatically register itself.
@@ -39,7 +39,7 @@ DISCORD_THROW_EXCEPTIONS=false
 ### Basic Usage
 
 ```php
-use Tapday\DiscordNotifications\Facades\Discord;
+use Tapday\Notification\Facades\Discord;
 
 // Send a simple message
 Discord::sendToChannel('general', 'Hello from Laravel!');
@@ -61,7 +61,7 @@ Discord::sendToChannel('orders', null, [$embed]);
 ### Using the Service
 
 ```php
-use Tapday\DiscordNotifications\Services\DiscordService;
+use Tapday\Notification\Services\DiscordService;
 
 class OrderController extends Controller
 {
@@ -102,7 +102,7 @@ Discord::sendToChannel('alerts', null, [$embed]);
 ### Using Notifications
 
 ```php
-use Tapday\DiscordNotifications\Notifications\DiscordNotification;
+use Tapday\Notification\Notifications\DiscordNotification;
 
 // In your notification class
 public function toDiscord($notifiable)
